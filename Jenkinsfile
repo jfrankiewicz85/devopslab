@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Input') {
       steps {
-        echo "nic"
+        sh 'cat README.md'
       }
     }
   }
